@@ -10,7 +10,7 @@ userRouter.post("/users/signup", hashPass, addUser);
 // user login
 userRouter.post("/users/login", comparePass, login);
 
-userRouter.get("/users/findall", findAll);
+userRouter.get("/users/getallusers", findAll);
 
 module.exports = userRouter;
 
